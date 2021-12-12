@@ -75,7 +75,7 @@ public class Request_MHC_JPanel extends javax.swing.JPanel {
         jLabel8 = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(255, 255, 204));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
@@ -93,8 +93,9 @@ public class Request_MHC_JPanel extends javax.swing.JPanel {
         });
         add(requestTestJButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 500, 290, 40));
 
-        backJButton.setBackground(new java.awt.Color(255, 204, 51));
+        backJButton.setBackground(new java.awt.Color(20, 53, 94));
         backJButton.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        backJButton.setForeground(new java.awt.Color(255, 255, 255));
         backJButton.setText("<<Back");
         backJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

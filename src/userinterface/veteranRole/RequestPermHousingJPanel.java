@@ -85,15 +85,14 @@ public class RequestPermHousingJPanel extends javax.swing.JPanel {
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(255, 255, 204));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setText("Additional Information");
         add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 340, -1, -1));
         add(messageJTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 334, 510, 30));
 
-        requestTestJButton.setBackground(new java.awt.Color(20, 53, 94));
-        requestTestJButton.setForeground(new java.awt.Color(255, 255, 255));
+        requestTestJButton.setBackground(new java.awt.Color(255, 204, 51));
         requestTestJButton.setText("Apply");
         requestTestJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

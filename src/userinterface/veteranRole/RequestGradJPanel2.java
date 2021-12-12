@@ -119,7 +119,7 @@ public class RequestGradJPanel2 extends javax.swing.JPanel {
         btnSubmit = new javax.swing.JButton();
         Home = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(255, 255, 204));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel3.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
@@ -186,8 +186,7 @@ public class RequestGradJPanel2 extends javax.swing.JPanel {
         });
         add(btnSubmit, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 510, 230, -1));
 
-        Home.setBackground(new java.awt.Color(20, 53, 94));
-        Home.setForeground(new java.awt.Color(255, 255, 255));
+        Home.setBackground(new java.awt.Color(255, 204, 51));
         Home.setText("Home");
         Home.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

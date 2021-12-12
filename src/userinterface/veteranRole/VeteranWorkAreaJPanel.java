@@ -122,8 +122,7 @@ public class VeteranWorkAreaJPanel extends javax.swing.JPanel {
         });
         add(refreshTestJButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 120, 100, -1));
 
-        permhousingrequestjButton.setBackground(new java.awt.Color(20, 53, 94));
-        permhousingrequestjButton.setForeground(new java.awt.Color(255, 255, 255));
+        permhousingrequestjButton.setBackground(new java.awt.Color(255, 204, 51));
         permhousingrequestjButton.setText("Perm Housing Request");
         permhousingrequestjButton.setPreferredSize(new java.awt.Dimension(152, 32));
         permhousingrequestjButton.addActionListener(new java.awt.event.ActionListener() {
@@ -154,8 +153,7 @@ public class VeteranWorkAreaJPanel extends javax.swing.JPanel {
         });
         add(GradRequestJButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 340, 200, -1));
 
-        PhysicalHealthCareRequestJButton.setBackground(new java.awt.Color(20, 53, 94));
-        PhysicalHealthCareRequestJButton.setForeground(new java.awt.Color(255, 255, 255));
+        PhysicalHealthCareRequestJButton.setBackground(new java.awt.Color(255, 204, 51));
         PhysicalHealthCareRequestJButton.setText("Physical Healthcare Request");
         PhysicalHealthCareRequestJButton.setPreferredSize(new java.awt.Dimension(152, 32));
         PhysicalHealthCareRequestJButton.addActionListener(new java.awt.event.ActionListener() {
@@ -188,7 +186,7 @@ public class VeteranWorkAreaJPanel extends javax.swing.JPanel {
         add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 120, -1, -1));
         add(pictureArea1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 20, 340, 70));
 
-        jLabel3.setText("all through this portal");
+        jLabel3.setText("all through this portal.");
         add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 140, -1, -1));
         add(eduPic, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 460, 80, 70));
 
@@ -201,8 +199,7 @@ public class VeteranWorkAreaJPanel extends javax.swing.JPanel {
         jLabel5.setText("Apply for Housing");
         add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 430, 300, -1));
 
-        permhousingrequestjButton1.setBackground(new java.awt.Color(20, 53, 94));
-        permhousingrequestjButton1.setForeground(new java.awt.Color(255, 255, 255));
+        permhousingrequestjButton1.setBackground(new java.awt.Color(255, 204, 51));
         permhousingrequestjButton1.setText("Temp Housing Request");
         permhousingrequestjButton1.setPreferredSize(new java.awt.Dimension(152, 32));
         permhousingrequestjButton1.addActionListener(new java.awt.event.ActionListener() {

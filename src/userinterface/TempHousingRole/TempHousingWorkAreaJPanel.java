@@ -91,7 +91,7 @@ public class TempHousingWorkAreaJPanel extends javax.swing.JPanel {
         jLabel12 = new javax.swing.JLabel();
         btnViewAllVeterans = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(255, 255, 204));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setFont(new java.awt.Font("Lucida Grande", 3, 24)); // NOI18N
@@ -141,8 +141,7 @@ public class TempHousingWorkAreaJPanel extends javax.swing.JPanel {
 
         add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(29, 330, 730, 96));
 
-        assignJButton.setBackground(new java.awt.Color(20, 53, 94));
-        assignJButton.setForeground(new java.awt.Color(255, 255, 255));
+        assignJButton.setBackground(new java.awt.Color(255, 204, 51));
         assignJButton.setText("Assign to me");
         assignJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -151,8 +150,7 @@ public class TempHousingWorkAreaJPanel extends javax.swing.JPanel {
         });
         add(assignJButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 450, 300, 50));
 
-        processJButton.setBackground(new java.awt.Color(20, 53, 94));
-        processJButton.setForeground(new java.awt.Color(255, 255, 255));
+        processJButton.setBackground(new java.awt.Color(255, 204, 51));
         processJButton.setText("Process");
         processJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -162,7 +160,6 @@ public class TempHousingWorkAreaJPanel extends javax.swing.JPanel {
         add(processJButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(382, 449, 300, 50));
 
         addtemphousingjButton.setBackground(new java.awt.Color(20, 53, 94));
-        addtemphousingjButton.setForeground(new java.awt.Color(255, 255, 255));
         addtemphousingjButton.setText("Add Temporary Housing Listing ");
         addtemphousingjButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -292,7 +289,6 @@ public class TempHousingWorkAreaJPanel extends javax.swing.JPanel {
         add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 240, -1, -1));
 
         btnViewAllVeterans.setBackground(new java.awt.Color(20, 53, 94));
-        btnViewAllVeterans.setForeground(new java.awt.Color(255, 255, 255));
         btnViewAllVeterans.setText("View and track Veterans");
         btnViewAllVeterans.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

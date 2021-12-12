@@ -82,7 +82,7 @@ public class AddTempListingJPanel extends javax.swing.JPanel {
         add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 160, -1, -1));
         add(txtNumber, new org.netbeans.lib.awtextra.AbsoluteConstraints(269, 156, 315, -1));
 
-        BtnAdd.setBackground(new java.awt.Color(255, 204, 51));
+        BtnAdd.setBackground(new java.awt.Color(20, 53, 94));
         BtnAdd.setText("Add");
         BtnAdd.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -91,8 +91,7 @@ public class AddTempListingJPanel extends javax.swing.JPanel {
         });
         add(BtnAdd, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 230, 130, -1));
 
-        btnBack.setBackground(new java.awt.Color(20, 53, 94));
-        btnBack.setForeground(new java.awt.Color(255, 255, 255));
+        btnBack.setBackground(new java.awt.Color(255, 204, 51));
         btnBack.setText("<<Back");
         btnBack.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

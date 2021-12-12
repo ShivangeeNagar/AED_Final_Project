@@ -100,11 +100,10 @@ public class ProcessWorkRequestJPanel2 extends javax.swing.JPanel {
         btnRecommendForJob = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(255, 255, 204));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        rejectJButton.setBackground(new java.awt.Color(20, 53, 94));
-        rejectJButton.setForeground(new java.awt.Color(255, 255, 255));
+        rejectJButton.setBackground(new java.awt.Color(255, 204, 51));
         rejectJButton.setText("Reject");
         rejectJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -113,8 +112,7 @@ public class ProcessWorkRequestJPanel2 extends javax.swing.JPanel {
         });
         add(rejectJButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(212, 263, 155, -1));
 
-        submitJButton.setBackground(new java.awt.Color(20, 53, 94));
-        submitJButton.setForeground(new java.awt.Color(255, 255, 255));
+        submitJButton.setBackground(new java.awt.Color(255, 204, 51));
         submitJButton.setText("Accept");
         submitJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -124,7 +122,6 @@ public class ProcessWorkRequestJPanel2 extends javax.swing.JPanel {
         add(submitJButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(29, 263, 146, -1));
 
         backJButton.setBackground(new java.awt.Color(20, 53, 94));
-        backJButton.setForeground(new java.awt.Color(255, 255, 255));
         backJButton.setText("Back");
         backJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -169,8 +166,7 @@ public class ProcessWorkRequestJPanel2 extends javax.swing.JPanel {
         txtAddress.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         add(txtAddress, new org.netbeans.lib.awtextra.AbsoluteConstraints(427, 209, 190, 23));
 
-        btnComplete.setBackground(new java.awt.Color(20, 53, 94));
-        btnComplete.setForeground(new java.awt.Color(255, 255, 255));
+        btnComplete.setBackground(new java.awt.Color(255, 204, 51));
         btnComplete.setText("Complete");
         btnComplete.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -179,8 +175,7 @@ public class ProcessWorkRequestJPanel2 extends javax.swing.JPanel {
         });
         add(btnComplete, new org.netbeans.lib.awtextra.AbsoluteConstraints(29, 313, 146, -1));
 
-        btnRecommendForJob.setBackground(new java.awt.Color(20, 53, 94));
-        btnRecommendForJob.setForeground(new java.awt.Color(255, 255, 255));
+        btnRecommendForJob.setBackground(new java.awt.Color(255, 204, 51));
         btnRecommendForJob.setText("Recommend For Job");
         btnRecommendForJob.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

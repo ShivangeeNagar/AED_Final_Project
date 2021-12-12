@@ -290,8 +290,7 @@ public class SystemAdminWorkAreaJPanel extends javax.swing.JPanel {
         lblSelectedNode.setText("<View_selected_node>");
         jPanel2.add(lblSelectedNode, new org.netbeans.lib.awtextra.AbsoluteConstraints(222, 73, -1, -1));
 
-        btnManageNetwork.setBackground(new java.awt.Color(20, 53, 94));
-        btnManageNetwork.setForeground(new java.awt.Color(255, 255, 255));
+        btnManageNetwork.setBackground(new java.awt.Color(255, 204, 51));
         btnManageNetwork.setText("Manage Network");
         btnManageNetwork.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -300,8 +299,7 @@ public class SystemAdminWorkAreaJPanel extends javax.swing.JPanel {
         });
         jPanel2.add(btnManageNetwork, new org.netbeans.lib.awtextra.AbsoluteConstraints(91, 95, 294, -1));
 
-        btnManageEnterprise.setBackground(new java.awt.Color(20, 53, 94));
-        btnManageEnterprise.setForeground(new java.awt.Color(255, 255, 255));
+        btnManageEnterprise.setBackground(new java.awt.Color(255, 204, 51));
         btnManageEnterprise.setText("Manage Enterprise");
         btnManageEnterprise.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -310,8 +308,7 @@ public class SystemAdminWorkAreaJPanel extends javax.swing.JPanel {
         });
         jPanel2.add(btnManageEnterprise, new org.netbeans.lib.awtextra.AbsoluteConstraints(91, 145, 294, -1));
 
-        btnManageAdmin.setBackground(new java.awt.Color(20, 53, 94));
-        btnManageAdmin.setForeground(new java.awt.Color(255, 255, 255));
+        btnManageAdmin.setBackground(new java.awt.Color(255, 204, 51));
         btnManageAdmin.setText("Manage Enterprise Admin");
         btnManageAdmin.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -322,7 +319,7 @@ public class SystemAdminWorkAreaJPanel extends javax.swing.JPanel {
 
         btnRegisterVeteran.setBackground(new java.awt.Color(20, 53, 94));
         btnRegisterVeteran.setForeground(new java.awt.Color(255, 255, 255));
-        btnRegisterVeteran.setText("Register Veteran");
+        btnRegisterVeteran.setText("Register Troop");
         btnRegisterVeteran.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnRegisterVeteranActionPerformed(evt);
@@ -332,7 +329,7 @@ public class SystemAdminWorkAreaJPanel extends javax.swing.JPanel {
 
         btnViewAllVeterans.setBackground(new java.awt.Color(20, 53, 94));
         btnViewAllVeterans.setForeground(new java.awt.Color(255, 255, 255));
-        btnViewAllVeterans.setText("View All Veterans");
+        btnViewAllVeterans.setText("View All Troops");
         btnViewAllVeterans.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnViewAllVeteransActionPerformed(evt);
@@ -342,7 +339,7 @@ public class SystemAdminWorkAreaJPanel extends javax.swing.JPanel {
         jPanel2.add(pictureArea1, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 0, 340, 70));
 
         jLabel2.setFont(new java.awt.Font("Lucida Grande", 0, 18)); // NOI18N
-        jLabel2.setText("Veteran Services");
+        jLabel2.setText("Troop Services");
         jPanel2.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 260, 300, -1));
 
         jSplitPane.setRightComponent(jPanel2);

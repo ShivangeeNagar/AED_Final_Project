@@ -100,7 +100,7 @@ public class PermHousingWorkAreaJPanel extends javax.swing.JPanel {
         txtWelcome = new javax.swing.JLabel();
         btnViewAllVeterans = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(255, 255, 204));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         refreshJButton.setForeground(new java.awt.Color(255, 255, 255));
@@ -142,8 +142,7 @@ public class PermHousingWorkAreaJPanel extends javax.swing.JPanel {
 
         add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 340, 639, 96));
 
-        assignJButton.setBackground(new java.awt.Color(20, 53, 94));
-        assignJButton.setForeground(new java.awt.Color(255, 255, 255));
+        assignJButton.setBackground(new java.awt.Color(255, 204, 51));
         assignJButton.setText("Assign to me");
         assignJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -152,8 +151,7 @@ public class PermHousingWorkAreaJPanel extends javax.swing.JPanel {
         });
         add(assignJButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 470, 280, -1));
 
-        processJButton.setBackground(new java.awt.Color(20, 53, 94));
-        processJButton.setForeground(new java.awt.Color(255, 255, 255));
+        processJButton.setBackground(new java.awt.Color(255, 204, 51));
         processJButton.setText("Process");
         processJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -162,8 +160,7 @@ public class PermHousingWorkAreaJPanel extends javax.swing.JPanel {
         });
         add(processJButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 470, 250, -1));
 
-        addpermhousingjButton.setBackground(new java.awt.Color(20, 53, 94));
-        addpermhousingjButton.setForeground(new java.awt.Color(255, 255, 255));
+        addpermhousingjButton.setBackground(new java.awt.Color(255, 204, 51));
         addpermhousingjButton.setText("Add Permanent Housing Listing ");
         addpermhousingjButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -303,9 +300,8 @@ public class PermHousingWorkAreaJPanel extends javax.swing.JPanel {
         add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 240, -1, -1));
         add(txtWelcome, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 60, 380, -1));
 
-        btnViewAllVeterans.setBackground(new java.awt.Color(20, 53, 94));
-        btnViewAllVeterans.setForeground(new java.awt.Color(255, 255, 255));
-        btnViewAllVeterans.setText("View and track Veterans");
+        btnViewAllVeterans.setBackground(new java.awt.Color(255, 204, 51));
+        btnViewAllVeterans.setText("View and track Troop");
         btnViewAllVeterans.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnViewAllVeteransActionPerformed(evt);

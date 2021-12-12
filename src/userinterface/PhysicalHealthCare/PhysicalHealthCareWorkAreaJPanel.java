@@ -94,7 +94,7 @@ public class PhysicalHealthCareWorkAreaJPanel extends javax.swing.JPanel {
         txtWelcome = new javax.swing.JLabel();
         jLabel14 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(255, 255, 204));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         workRequestJTable.setModel(new javax.swing.table.DefaultTableModel(

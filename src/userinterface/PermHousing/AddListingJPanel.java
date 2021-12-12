@@ -72,7 +72,7 @@ public class AddListingJPanel extends javax.swing.JPanel {
         jLabel6 = new javax.swing.JLabel();
         btnBack = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(255, 255, 204));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setText("Area");
@@ -95,8 +95,7 @@ public class AddListingJPanel extends javax.swing.JPanel {
         add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 350, -1, -1));
         add(txtPinCode, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 340, 270, -1));
 
-        btnAdd.setBackground(new java.awt.Color(20, 53, 94));
-        btnAdd.setForeground(new java.awt.Color(255, 255, 255));
+        btnAdd.setBackground(new java.awt.Color(255, 204, 51));
         btnAdd.setText("Add Listing");
         btnAdd.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

@@ -106,7 +106,7 @@ public class MHC_WorkRequestJPanel extends javax.swing.JPanel {
         jCheckBox1 = new javax.swing.JCheckBox();
         jLabel14 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(255, 255, 204));
         setForeground(new java.awt.Color(255, 255, 255));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -186,7 +186,7 @@ public class MHC_WorkRequestJPanel extends javax.swing.JPanel {
         add(lbl_Mood, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 400, -1, 30));
 
         jLabel11.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel11.setText("Veteran Details");
+        jLabel11.setText("Troop Details");
         add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 80, 197, -1));
 
         jLabel12.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
@@ -207,7 +207,7 @@ public class MHC_WorkRequestJPanel extends javax.swing.JPanel {
         });
         add(btnRehab, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 430, 150, 50));
 
-        jCheckBox1.setText("Refer and redirect Veteran to Rehab Center");
+        jCheckBox1.setText("Refer and redirect troop to Rehab Center");
         jCheckBox1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jCheckBox1ActionPerformed(evt);

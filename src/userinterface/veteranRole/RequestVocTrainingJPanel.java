@@ -74,7 +74,7 @@ public class RequestVocTrainingJPanel extends javax.swing.JPanel {
         jLabel7 = new javax.swing.JLabel();
         backJButton = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(255, 255, 204));
 
         jLabel1.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
         jLabel1.setText("Apply for Vocational Education");
@@ -97,8 +97,7 @@ public class RequestVocTrainingJPanel extends javax.swing.JPanel {
 
         educationComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "High School", "High School Diploma", "Bachelors", "Masters" }));
 
-        txtSubmit.setBackground(new java.awt.Color(20, 53, 94));
-        txtSubmit.setForeground(new java.awt.Color(255, 255, 255));
+        txtSubmit.setBackground(new java.awt.Color(255, 204, 51));
         txtSubmit.setText("Submit");
         txtSubmit.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

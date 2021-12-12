@@ -65,7 +65,7 @@ public class RequestTempHousingJPanel extends javax.swing.JPanel {
         jLabel5 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(255, 255, 204));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setText("Number Of Members: ");
@@ -79,8 +79,7 @@ public class RequestTempHousingJPanel extends javax.swing.JPanel {
         NumberComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "1", "2", "3", "4", "5", "6" }));
         add(NumberComboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 130, 231, -1));
 
-        btnRequest.setBackground(new java.awt.Color(20, 53, 94));
-        btnRequest.setForeground(new java.awt.Color(255, 255, 255));
+        btnRequest.setBackground(new java.awt.Color(255, 204, 51));
         btnRequest.setText("Request");
         btnRequest.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

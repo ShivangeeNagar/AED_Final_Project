@@ -129,7 +129,7 @@ public class RequestGradJPanel extends javax.swing.JPanel {
         btnSubmit = new javax.swing.JButton();
         jButton1 = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(255, 255, 204));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setFont(new java.awt.Font("Lucida Grande", 0, 14)); // NOI18N
@@ -147,6 +147,7 @@ public class RequestGradJPanel extends javax.swing.JPanel {
         jLabel3.setFocusable(false);
         add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 30, -1, -1));
 
+        jLabel5.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jLabel5.setText("Have you completed High School: ");
         jLabel5.setFocusable(false);
         add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 190, -1, 23));
@@ -158,6 +159,7 @@ public class RequestGradJPanel extends javax.swing.JPanel {
         });
         add(highSchoolCheck, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 190, -1, -1));
 
+        jLabel6.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jLabel6.setText("Enter High School Name:");
         jLabel6.setFocusable(false);
         add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 220, -1, 23));
@@ -169,6 +171,7 @@ public class RequestGradJPanel extends javax.swing.JPanel {
         });
         add(txtHighSchool, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 220, 211, -1));
 
+        jLabel7.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jLabel7.setText("Enter High School CGPA:");
         jLabel7.setFocusable(false);
         add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 250, -1, 23));
@@ -180,6 +183,7 @@ public class RequestGradJPanel extends javax.swing.JPanel {
         });
         add(txtHSgrade, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 250, 211, -1));
 
+        jLabel8.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jLabel8.setText("Have you completed Bachelor's: ");
         jLabel8.setFocusable(false);
         add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 310, -1, 23));
@@ -191,6 +195,7 @@ public class RequestGradJPanel extends javax.swing.JPanel {
         });
         add(highBachelorCheck, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 310, -1, -1));
 
+        jLabel9.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jLabel9.setText("Enter University:");
         jLabel9.setFocusable(false);
         add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 340, -1, 23));
@@ -202,6 +207,7 @@ public class RequestGradJPanel extends javax.swing.JPanel {
         });
         add(txtBachelorUniv, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 340, 211, -1));
 
+        jLabel10.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jLabel10.setText("Enter Bachelor's CGPA:");
         jLabel10.setFocusable(false);
         add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 370, -1, 23));
@@ -213,6 +219,7 @@ public class RequestGradJPanel extends javax.swing.JPanel {
         });
         add(txtBachGrade, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 370, 211, -1));
 
+        jLabel11.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jLabel11.setText("Choose your concentration:");
         jLabel11.setFocusable(false);
         add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 400, -1, 23));
@@ -239,6 +246,7 @@ public class RequestGradJPanel extends javax.swing.JPanel {
         txtRecommend1.setForeground(new java.awt.Color(20, 53, 94));
         add(txtRecommend1, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 140, 580, 20));
 
+        jLabel4.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jLabel4.setText("Choose Desired Program");
         jLabel4.setFocusable(false);
         add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 210, -1, 30));
@@ -248,10 +256,12 @@ public class RequestGradJPanel extends javax.swing.JPanel {
         comboUniversity.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Northeastern Univerisity", "Arizona State University", "NJIT", "NYU", "University of Cincinati", "University of Florida" }));
         add(comboUniversity, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 250, 220, -1));
 
+        jLabel12.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jLabel12.setText("Choose University");
         jLabel12.setFocusable(false);
         add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 250, -1, 30));
 
+        jLabel13.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jLabel13.setText("Desired Intake");
         jLabel13.setFocusable(false);
         add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 330, -1, 30));
@@ -265,12 +275,12 @@ public class RequestGradJPanel extends javax.swing.JPanel {
 
         add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 370, 220, -1));
 
+        jLabel14.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jLabel14.setText("Additional Information");
         jLabel14.setFocusable(false);
         add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 390, -1, 30));
 
-        btnSubmit.setBackground(new java.awt.Color(20, 53, 94));
-        btnSubmit.setForeground(new java.awt.Color(255, 255, 255));
+        btnSubmit.setBackground(new java.awt.Color(255, 204, 51));
         btnSubmit.setText("Submit Application");
         btnSubmit.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -279,6 +289,8 @@ public class RequestGradJPanel extends javax.swing.JPanel {
         });
         add(btnSubmit, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 510, 230, -1));
 
+        jButton1.setBackground(new java.awt.Color(20, 53, 94));
+        jButton1.setForeground(new java.awt.Color(255, 255, 255));
         jButton1.setText("Get Courses");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

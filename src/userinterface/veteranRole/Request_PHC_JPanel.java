@@ -81,12 +81,13 @@ public class Request_PHC_JPanel extends javax.swing.JPanel {
         txt_heartDisease = new javax.swing.JTextField();
         jLabel9 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(255, 255, 204));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
         add(valueLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(967, 6, 130, -1));
 
-        backJButton.setBackground(new java.awt.Color(255, 204, 102));
+        backJButton.setBackground(new java.awt.Color(20, 53, 94));
         backJButton.setFont(new java.awt.Font("Poppins", 1, 12)); // NOI18N
+        backJButton.setForeground(new java.awt.Color(255, 255, 255));
         backJButton.setText("<<Back");
         backJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

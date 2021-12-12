@@ -158,7 +158,7 @@ public class GradSchoolWorkAreaJPanel extends javax.swing.JPanel {
         processJButton = new javax.swing.JButton();
         btnViewAllVeterans = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(255, 255, 204));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         txtAcc.setBackground(new java.awt.Color(153, 255, 255));
@@ -326,8 +326,7 @@ public class GradSchoolWorkAreaJPanel extends javax.swing.JPanel {
         });
         add(refreshJButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 240, -1, -1));
 
-        assignJButton.setBackground(new java.awt.Color(20, 53, 94));
-        assignJButton.setForeground(new java.awt.Color(255, 255, 255));
+        assignJButton.setBackground(new java.awt.Color(255, 204, 51));
         assignJButton.setText("Assign to me");
         assignJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -336,8 +335,7 @@ public class GradSchoolWorkAreaJPanel extends javax.swing.JPanel {
         });
         add(assignJButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 440, 162, -1));
 
-        processJButton.setBackground(new java.awt.Color(20, 53, 94));
-        processJButton.setForeground(new java.awt.Color(255, 255, 255));
+        processJButton.setBackground(new java.awt.Color(255, 204, 51));
         processJButton.setText("Process");
         processJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -346,9 +344,8 @@ public class GradSchoolWorkAreaJPanel extends javax.swing.JPanel {
         });
         add(processJButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 440, 150, -1));
 
-        btnViewAllVeterans.setBackground(new java.awt.Color(20, 53, 94));
-        btnViewAllVeterans.setForeground(new java.awt.Color(255, 255, 255));
-        btnViewAllVeterans.setText("View and track Veterans");
+        btnViewAllVeterans.setBackground(new java.awt.Color(255, 204, 51));
+        btnViewAllVeterans.setText("View and track Troops");
         btnViewAllVeterans.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnViewAllVeteransActionPerformed(evt);

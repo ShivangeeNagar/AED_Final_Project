@@ -108,7 +108,7 @@ public class MainJFrame extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jPanel1.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel1.setBackground(new java.awt.Color(255, 255, 204));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         loginJButton.setBackground(new java.awt.Color(20, 53, 94));
@@ -126,6 +126,7 @@ public class MainJFrame extends javax.swing.JFrame {
         jLabel1.setText("Username");
         jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 200, -1, -1));
 
+        jLabel2.setForeground(new java.awt.Color(255, 255, 204));
         jLabel2.setText("Login as Guest");
         jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 420, 110, -1));
         jPanel1.add(loginJLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 253, -1, -1));
@@ -141,9 +142,8 @@ public class MainJFrame extends javax.swing.JFrame {
         });
         jPanel1.add(logoutJButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 360, 120, -1));
 
-        jButton1.setBackground(new java.awt.Color(20, 53, 94));
-        jButton1.setForeground(new java.awt.Color(255, 255, 255));
-        jButton1.setText("Guest User");
+        jButton1.setBackground(new java.awt.Color(255, 255, 204));
+        jButton1.setText("View Troops");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
@@ -158,7 +158,7 @@ public class MainJFrame extends javax.swing.JFrame {
 
         jSplitPane1.setLeftComponent(jPanel1);
 
-        container.setBackground(new java.awt.Color(255, 255, 255));
+        container.setBackground(new java.awt.Color(255, 255, 204));
         container.setLayout(new java.awt.CardLayout());
         jSplitPane1.setRightComponent(container);
 

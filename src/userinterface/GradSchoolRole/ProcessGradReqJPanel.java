@@ -107,7 +107,7 @@ public class ProcessGradReqJPanel extends javax.swing.JPanel {
         rejectJButton = new javax.swing.JButton();
         jLabel4 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(255, 255, 204));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         txtHeader.setFont(new java.awt.Font("Lucida Grande", 0, 18)); // NOI18N
@@ -169,8 +169,7 @@ public class ProcessGradReqJPanel extends javax.swing.JPanel {
         txtHS7.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         add(txtHS7, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 380, 272, 26));
 
-        submitJButton.setBackground(new java.awt.Color(20, 53, 94));
-        submitJButton.setForeground(new java.awt.Color(255, 255, 255));
+        submitJButton.setBackground(new java.awt.Color(255, 204, 51));
         submitJButton.setText("Accept");
         submitJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -179,8 +178,7 @@ public class ProcessGradReqJPanel extends javax.swing.JPanel {
         });
         add(submitJButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 530, 120, -1));
 
-        rejectJButton.setBackground(new java.awt.Color(20, 53, 94));
-        rejectJButton.setForeground(new java.awt.Color(255, 255, 255));
+        rejectJButton.setBackground(new java.awt.Color(255, 204, 51));
         rejectJButton.setText("Reject");
         rejectJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

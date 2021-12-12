@@ -109,7 +109,7 @@ public class VeteranWorkAreaJPanel extends javax.swing.JPanel {
         eduRequestsTable = new javax.swing.JTable();
         jLabel7 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(255, 255, 204));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         refreshTestJButton.setBackground(new java.awt.Color(20, 53, 94));
@@ -165,8 +165,7 @@ public class VeteranWorkAreaJPanel extends javax.swing.JPanel {
         });
         add(PhysicalHealthCareRequestJButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 250, 200, -1));
 
-        MentalHealthCareJButton.setBackground(new java.awt.Color(20, 53, 94));
-        MentalHealthCareJButton.setForeground(new java.awt.Color(255, 255, 255));
+        MentalHealthCareJButton.setBackground(new java.awt.Color(255, 204, 51));
         MentalHealthCareJButton.setText("Mental Healthcare Request");
         MentalHealthCareJButton.setPreferredSize(new java.awt.Dimension(152, 32));
         MentalHealthCareJButton.addActionListener(new java.awt.event.ActionListener() {

@@ -94,7 +94,7 @@ public class VocationalSchoolAreaJPanel extends javax.swing.JPanel {
         jSeparator1 = new javax.swing.JSeparator();
         jLabel13 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(255, 255, 204));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         workRequestJTable.setModel(new javax.swing.table.DefaultTableModel(
@@ -127,8 +127,7 @@ public class VocationalSchoolAreaJPanel extends javax.swing.JPanel {
 
         add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 380, 680, 132));
 
-        refreshJButton.setBackground(new java.awt.Color(20, 53, 94));
-        refreshJButton.setForeground(new java.awt.Color(255, 255, 255));
+        refreshJButton.setBackground(new java.awt.Color(255, 255, 204));
         refreshJButton.setText("Refresh");
         refreshJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

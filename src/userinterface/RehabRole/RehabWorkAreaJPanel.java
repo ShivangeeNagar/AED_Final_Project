@@ -95,7 +95,7 @@ public class RehabWorkAreaJPanel extends javax.swing.JPanel {
                 {null, null, null, null, null, null}
             },
             new String [] {
-                " Veteran Concern", "Sender", "Receiver", "Status", "Analysis", "Doctor Comments"
+                "Troops Concern", "Sender", "Receiver", "Status", "Analysis", "Doctor Comments"
             }
         ) {
             Class[] types = new Class [] {

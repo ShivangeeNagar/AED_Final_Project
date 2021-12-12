@@ -55,25 +55,28 @@ VeteranDirectory veteran_Di;
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        
+        
         jLabel1 = new javax.swing.JLabel();
         btnRegisterVeteran = new javax.swing.JButton();
         btnViewAllVeterans = new javax.swing.JButton();
+        
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
-        jLabel1.setText("Guest User Dashboard");
+        jLabel1.setText("View Troops Details");
 
-        btnRegisterVeteran.setBackground(new java.awt.Color(20, 53, 94));
-        btnRegisterVeteran.setForeground(new java.awt.Color(255, 255, 255));
-        btnRegisterVeteran.setText("Register Veteran");
+        btnRegisterVeteran.setBackground(new java.awt.Color(255, 204, 51));
+        btnRegisterVeteran.setForeground(new java.awt.Color(0, 0, 0));
+        btnRegisterVeteran.setText("Register Troops");
         btnRegisterVeteran.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnRegisterVeteranActionPerformed(evt);
             }
         });
 
-        btnViewAllVeterans.setBackground(new java.awt.Color(20, 53, 94));
-        btnViewAllVeterans.setForeground(new java.awt.Color(255, 255, 255));
-        btnViewAllVeterans.setText("View and track Veterans");
+        btnViewAllVeterans.setBackground(new java.awt.Color(255, 204, 51));
+        btnViewAllVeterans.setForeground(new java.awt.Color(0, 0, 0));
+        btnViewAllVeterans.setText("View and track Troops");
         btnViewAllVeterans.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnViewAllVeteransActionPerformed(evt);
@@ -114,7 +117,7 @@ VeteranDirectory veteran_Di;
     private void btnRegisterVeteranActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegisterVeteranActionPerformed
         // TODO add your handling code here:
         RegisterVeteran rg = new RegisterVeteran(container,system, veteran_Di, user_Dir);
-        container.add("RegisterVeteran", rg);
+        container.add("RegisterTroop", rg);
         CardLayout layout = (CardLayout) container.getLayout();
         layout.next(container);
     }//GEN-LAST:event_btnRegisterVeteranActionPerformed
@@ -122,7 +125,7 @@ VeteranDirectory veteran_Di;
     private void btnViewAllVeteransActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnViewAllVeteransActionPerformed
         // TODO add your handling code here:
         ViewAllVeterans rg = new ViewAllVeterans(container, system, veteran_Di);
-        container.add("ViewAllVeterans", rg);
+        container.add("ViewAllTroops", rg);
         CardLayout layout = (CardLayout) container.getLayout();
         layout.next(container);
     }//GEN-LAST:event_btnViewAllVeteransActionPerformed

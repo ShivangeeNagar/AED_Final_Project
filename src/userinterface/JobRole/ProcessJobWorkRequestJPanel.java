@@ -56,7 +56,7 @@ public class ProcessJobWorkRequestJPanel extends javax.swing.JPanel {
         txtCandidateName = new javax.swing.JTextField();
         btnback = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(255, 255, 204));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setFont(new java.awt.Font("Lucida Grande", 3, 24)); // NOI18N
@@ -70,8 +70,7 @@ public class ProcessJobWorkRequestJPanel extends javax.swing.JPanel {
         txtJobRole.setEditable(false);
         add(txtJobRole, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 150, 327, -1));
 
-        btnApprove.setBackground(new java.awt.Color(20, 53, 94));
-        btnApprove.setForeground(new java.awt.Color(255, 255, 255));
+        btnApprove.setBackground(new java.awt.Color(255, 204, 51));
         btnApprove.setText("Approve");
         btnApprove.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -80,8 +79,7 @@ public class ProcessJobWorkRequestJPanel extends javax.swing.JPanel {
         });
         add(btnApprove, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 290, 100, 50));
 
-        btnReject.setBackground(new java.awt.Color(20, 53, 94));
-        btnReject.setForeground(new java.awt.Color(255, 255, 255));
+        btnReject.setBackground(new java.awt.Color(255, 204, 51));
         btnReject.setText("Reject");
         btnReject.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -106,7 +104,6 @@ public class ProcessJobWorkRequestJPanel extends javax.swing.JPanel {
         add(txtCandidateName, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 100, 340, -1));
 
         btnback.setBackground(new java.awt.Color(20, 53, 94));
-        btnback.setForeground(new java.awt.Color(255, 255, 255));
         btnback.setText("Back");
         btnback.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

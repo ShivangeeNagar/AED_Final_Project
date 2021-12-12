@@ -90,7 +90,7 @@ public class JobWorkAreaJPanel extends javax.swing.JPanel {
         jLabel12 = new javax.swing.JLabel();
         btnViewAllVeterans = new javax.swing.JButton();
 
-        jPanel1.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel1.setBackground(new java.awt.Color(255, 255, 204));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
@@ -128,8 +128,7 @@ public class JobWorkAreaJPanel extends javax.swing.JPanel {
 
         jPanel1.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 290, 621, 108));
 
-        assignJButton.setBackground(new java.awt.Color(20, 53, 95));
-        assignJButton.setForeground(new java.awt.Color(255, 255, 255));
+        assignJButton.setBackground(new java.awt.Color(255, 204, 51));
         assignJButton.setText("Assign to me");
         assignJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -138,8 +137,7 @@ public class JobWorkAreaJPanel extends javax.swing.JPanel {
         });
         jPanel1.add(assignJButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 420, 118, -1));
 
-        processJButton.setBackground(new java.awt.Color(20, 53, 95));
-        processJButton.setForeground(new java.awt.Color(255, 255, 255));
+        processJButton.setBackground(new java.awt.Color(255, 204, 51));
         processJButton.setText("Process");
         processJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -148,6 +146,7 @@ public class JobWorkAreaJPanel extends javax.swing.JPanel {
         });
         jPanel1.add(processJButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 420, 110, 38));
 
+        refreshJButton.setBackground(new java.awt.Color(20, 53, 94));
         refreshJButton.setText("Refresh");
         refreshJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -276,7 +275,6 @@ public class JobWorkAreaJPanel extends javax.swing.JPanel {
         jPanel1.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 240, -1, -1));
 
         btnViewAllVeterans.setBackground(new java.awt.Color(20, 53, 94));
-        btnViewAllVeterans.setForeground(new java.awt.Color(255, 255, 255));
         btnViewAllVeterans.setText("View and track Veterans");
         btnViewAllVeterans.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

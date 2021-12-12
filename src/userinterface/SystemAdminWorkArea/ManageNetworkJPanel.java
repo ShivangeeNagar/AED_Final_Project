@@ -62,7 +62,7 @@ public class ManageNetworkJPanel extends javax.swing.JPanel {
         jLabel6 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(255, 255, 204));
         setForeground(new java.awt.Color(255, 255, 255));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -102,8 +102,7 @@ public class ManageNetworkJPanel extends javax.swing.JPanel {
         jLabel1.setText("Add Network");
         add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 50, 350, 30));
 
-        submitJButton.setBackground(new java.awt.Color(20, 53, 94));
-        submitJButton.setForeground(new java.awt.Color(255, 255, 255));
+        submitJButton.setBackground(new java.awt.Color(255, 204, 51));
         submitJButton.setText("Submit");
         submitJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

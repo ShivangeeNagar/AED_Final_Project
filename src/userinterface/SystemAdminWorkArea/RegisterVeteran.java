@@ -43,7 +43,7 @@ public class RegisterVeteran extends javax.swing.JPanel {
         this.userProcessContainer = userProcessContainer;
         this.system = system;
 
-        String f = "img/ez_logo.png";
+        String f = "img/goArmy.jpg";
         ImageIcon ficon = new ImageIcon(f.toString());
         Image fimage = ficon.getImage();
         Image fimagescaling = fimage.getScaledInstance(300, 75, Image.SCALE_SMOOTH);
@@ -97,7 +97,7 @@ public class RegisterVeteran extends javax.swing.JPanel {
         jPasswordField1 = new javax.swing.JPasswordField();
         jComboBox1 = new javax.swing.JComboBox<>();
 
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(255, 255, 204));
         setForeground(new java.awt.Color(255, 255, 255));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -142,7 +142,7 @@ public class RegisterVeteran extends javax.swing.JPanel {
 
         jButton1.setBackground(new java.awt.Color(20, 53, 94));
         jButton1.setForeground(new java.awt.Color(255, 255, 255));
-        jButton1.setText("Register Veteran");
+        jButton1.setText("Register Troop");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
@@ -150,7 +150,7 @@ public class RegisterVeteran extends javax.swing.JPanel {
         });
         add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 630, 380, -1));
 
-        jLabel9.setText("Veteran ID");
+        jLabel9.setText("Troop ID");
         add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 450, -1, -1));
 
         txtVeteranID.addActionListener(new java.awt.event.ActionListener() {
@@ -177,7 +177,7 @@ public class RegisterVeteran extends javax.swing.JPanel {
         jLabel12.setText("Concerns");
         add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 100, 300, -1));
 
-        jLabel13.setText("Enter all veteran details");
+        jLabel13.setText("Enter all troop details");
         add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 120, -1, -1));
 
         jLabel15.setFont(new java.awt.Font("Lucida Grande", 0, 18)); // NOI18N
@@ -205,7 +205,7 @@ public class RegisterVeteran extends javax.swing.JPanel {
         add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 280, 370, 20));
 
         jLabel20.setFont(new java.awt.Font("Lucida Grande", 0, 18)); // NOI18N
-        jLabel20.setText("Register a Veteran");
+        jLabel20.setText("Register a Troop");
         add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 90, 300, -1));
 
         jPasswordField1.addActionListener(new java.awt.event.ActionListener() {

@@ -72,7 +72,7 @@ public class ViewAllVeterans extends javax.swing.JPanel {
         jLabel6 = new javax.swing.JLabel();
         jButton1 = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(255, 255, 204));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         tblViewAllVeteran.setModel(new javax.swing.table.DefaultTableModel(
@@ -83,7 +83,7 @@ public class ViewAllVeterans extends javax.swing.JPanel {
                 {null, null, null, null, null, null}
             },
             new String [] {
-                "Veteran Name ", "Veteran ID", "Age", "Gender", "Current Concern", "Criticality level"
+                "Troop Name ", "Troop ID", "Age", "Gender", "Current Concern", "Criticality level"
             }
         ));
         jScrollPane1.setViewportView(tblViewAllVeteran);
@@ -91,11 +91,12 @@ public class ViewAllVeterans extends javax.swing.JPanel {
         add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 100, 820, 185));
 
         jLabel6.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
-        jLabel6.setText("View  and track Veterans");
+        jLabel6.setText("View  and track Troops");
         jLabel6.setFocusable(false);
         add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(55, 50, -1, -1));
 
-        jButton1.setText("Track veteran");
+        jButton1.setBackground(new java.awt.Color(255, 204, 51));
+        jButton1.setText("Track Troop");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);

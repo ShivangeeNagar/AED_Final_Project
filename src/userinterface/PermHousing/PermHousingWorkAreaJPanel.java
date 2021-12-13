@@ -54,7 +54,7 @@ public class PermHousingWorkAreaJPanel extends javax.swing.JPanel {
                 availability = availability -1;
             }
         }
-        AvailableHousesText.setText(Integer.toString(availability));
+//        AvailableHousesText.setText(Integer.toString(availability));
         populateTable();
 
 //        initComponents();
@@ -75,8 +75,6 @@ public class PermHousingWorkAreaJPanel extends javax.swing.JPanel {
         assignJButton = new javax.swing.JButton();
         processJButton = new javax.swing.JButton();
         addpermhousingjButton = new javax.swing.JButton();
-        AvailableHousesText = new javax.swing.JTextField();
-        jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
         txtTotalRequests1 = new javax.swing.JLabel();
@@ -103,6 +101,7 @@ public class PermHousingWorkAreaJPanel extends javax.swing.JPanel {
         setBackground(new java.awt.Color(255, 255, 204));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        refreshJButton.setBackground(new java.awt.Color(20, 53, 94));
         refreshJButton.setForeground(new java.awt.Color(255, 255, 255));
         refreshJButton.setText("Refresh");
         refreshJButton.addActionListener(new java.awt.event.ActionListener() {
@@ -169,17 +168,7 @@ public class PermHousingWorkAreaJPanel extends javax.swing.JPanel {
         });
         add(addpermhousingjButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 530, 300, -1));
 
-        AvailableHousesText.setEditable(false);
-        AvailableHousesText.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
-        AvailableHousesText.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        add(AvailableHousesText, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 280, 240, -1));
-
-        jLabel1.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
-        jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel1.setText("Available Houses :");
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 270, 130, 50));
-
-        jLabel2.setFont(new java.awt.Font("Lucida Grande", 3, 24)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Lucida Grande", 0, 24)); // NOI18N
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel2.setText("Permanent Housing Work Area ");
         add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 30, -1, -1));
@@ -456,11 +445,9 @@ public class PermHousingWorkAreaJPanel extends javax.swing.JPanel {
 //    }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JTextField AvailableHousesText;
     private javax.swing.JButton addpermhousingjButton;
     private javax.swing.JButton assignJButton;
     private javax.swing.JButton btnViewAllVeterans;
-    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;

@@ -252,8 +252,8 @@ if(txtArea_analysis.getText().equals("")){
         
              String to = String.valueOf(request.getSender());
              String subject = "Report for the MHC request raised : "+ request.getMain_Concern();
-             String user = "maheshprasad4569@gmail.com";
-             String pass = "Mahi1234$";   
+             String user = "goarmyaed@gmail.com";
+             String pass = "Goarmy@123";   
              String message = " Hello "+ veteranName 
                          + "Please Look into the report provide by your dcotor for your MHC request concern: " + ((MentalHealthCareRequest) request).getMain_Concern()
                          + " Doctor Name: "+  request.getReceiver() + "  \n"+ 
@@ -345,8 +345,8 @@ if(!usernamePatternCorrect()){
         }
             String to = txt_EmailID.getText();
             String subject = "Request for Veteran Rehab : " +lbl_patientName.getText() ;
-            String user = "maheshprasad4569@gmail.com";
-            String pass = "Mahi1234$";
+            String user = "goarmyaed@gmail.com";
+            String pass = "Goarmy@123";
 
             SendMail.send(to,subject, message, user, pass);
         txtArea_analysis.setText("");

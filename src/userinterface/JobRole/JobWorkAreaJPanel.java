@@ -147,6 +147,7 @@ public class JobWorkAreaJPanel extends javax.swing.JPanel {
         jPanel1.add(processJButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 420, 110, 38));
 
         refreshJButton.setBackground(new java.awt.Color(20, 53, 94));
+        refreshJButton.setForeground(new java.awt.Color(255, 255, 255));
         refreshJButton.setText("Refresh");
         refreshJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -275,6 +276,7 @@ public class JobWorkAreaJPanel extends javax.swing.JPanel {
         jPanel1.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 240, -1, -1));
 
         btnViewAllVeterans.setBackground(new java.awt.Color(20, 53, 94));
+        btnViewAllVeterans.setForeground(new java.awt.Color(255, 255, 255));
         btnViewAllVeterans.setText("View and track Troops");
         btnViewAllVeterans.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

@@ -49,7 +49,7 @@ public class TempHousingWorkAreaJPanel extends javax.swing.JPanel {
         this.vd = vd;
         populateTempTable();
         
-        txtAvlHouses.setText(Integer.toString(CalculateAvailableHouses()));
+//        txtAvlHouses.setText(Integer.toString(CalculateAvailableHouses()));
     }
 
     /**
@@ -62,8 +62,6 @@ public class TempHousingWorkAreaJPanel extends javax.swing.JPanel {
     private void initComponents() {
 
         jLabel1 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
-        txtAvlHouses = new javax.swing.JTextField();
         jScrollPane1 = new javax.swing.JScrollPane();
         workRequestJTable = new javax.swing.JTable();
         assignJButton = new javax.swing.JButton();
@@ -98,18 +96,6 @@ public class TempHousingWorkAreaJPanel extends javax.swing.JPanel {
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Temporary Housing Work Area");
         add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 20, 410, -1));
-
-        jLabel2.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
-        jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel2.setText("Available Houses:");
-        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 270, -1, 26));
-
-        txtAvlHouses.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtAvlHousesActionPerformed(evt);
-            }
-        });
-        add(txtAvlHouses, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 270, 310, -1));
 
         workRequestJTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -160,6 +146,7 @@ public class TempHousingWorkAreaJPanel extends javax.swing.JPanel {
         add(processJButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(382, 449, 300, 50));
 
         addtemphousingjButton.setBackground(new java.awt.Color(20, 53, 94));
+        addtemphousingjButton.setForeground(new java.awt.Color(255, 255, 255));
         addtemphousingjButton.setText("Add Temporary Housing Listing ");
         addtemphousingjButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -289,6 +276,7 @@ public class TempHousingWorkAreaJPanel extends javax.swing.JPanel {
         add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 240, -1, -1));
 
         btnViewAllVeterans.setBackground(new java.awt.Color(20, 53, 94));
+        btnViewAllVeterans.setForeground(new java.awt.Color(255, 255, 255));
         btnViewAllVeterans.setText("View and track Troops");
         btnViewAllVeterans.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -384,10 +372,6 @@ public class TempHousingWorkAreaJPanel extends javax.swing.JPanel {
     }
     }
     
-    private void txtAvlHousesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtAvlHousesActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtAvlHousesActionPerformed
-
     private void assignJButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_assignJButtonActionPerformed
 
         int selectedRow = workRequestJTable.getSelectedRow();
@@ -445,7 +429,6 @@ public class TempHousingWorkAreaJPanel extends javax.swing.JPanel {
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
-    private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
@@ -458,7 +441,6 @@ public class TempHousingWorkAreaJPanel extends javax.swing.JPanel {
     private javax.swing.JButton processJButton;
     private javax.swing.JLabel txtAcc;
     private javax.swing.JLabel txtAcc1;
-    private javax.swing.JTextField txtAvlHouses;
     private javax.swing.JLabel txtPend;
     private javax.swing.JLabel txtPend1;
     private javax.swing.JLabel txtRej;

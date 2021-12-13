@@ -14,8 +14,11 @@ import Business.Organization.Organization;
 import Business.Organization.PermHousingOrganization;
 import Business.UserAccount.UserAccount;
 import Business.Veteran.VeteranDirectory;
+import java.awt.CardLayout;
+import java.awt.Component;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
+import userinterface.TempHousingRole.TempHousingWorkAreaJPanel;
 
 /**
  *
@@ -112,6 +115,11 @@ public class AddListingJPanel extends javax.swing.JPanel {
         btnBack.setBackground(new java.awt.Color(20, 53, 94));
         btnBack.setForeground(new java.awt.Color(255, 255, 255));
         btnBack.setText("back");
+        btnBack.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnBackActionPerformed(evt);
+            }
+        });
         add(btnBack, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 480, 90, -1));
     }// </editor-fold>//GEN-END:initComponents
 
@@ -165,6 +173,17 @@ public class AddListingJPanel extends javax.swing.JPanel {
         
         
     }//GEN-LAST:event_btnAddActionPerformed
+
+    private void btnBackActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBackActionPerformed
+        // TODO add your handling code here:
+        userProcessContainer.remove(this);
+        Component[] componentArray = userProcessContainer.getComponents();
+        Component component = componentArray[componentArray.length - 1];
+        PermHousingWorkAreaJPanel dwjp = (PermHousingWorkAreaJPanel) component;
+        dwjp.populateTable();
+        CardLayout layout = (CardLayout) userProcessContainer.getLayout();
+        layout.previous(userProcessContainer);
+    }//GEN-LAST:event_btnBackActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables

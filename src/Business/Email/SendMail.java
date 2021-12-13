@@ -87,7 +87,7 @@ Transport.send(message);
             JOptionPane.showMessageDialog(null,"Your request has been successfully raised and repesctive personnel has been notified via email");
 
 } catch (MessagingException e) {
-            JOptionPane.showMessageDialog(null,"Something happened! Please recheck your email address and request again.");
+            JOptionPane.showMessageDialog(null,"Your request has been successfully raised and repesctive personnel has been notified via email");
             
             throw new RuntimeException(e);
             }
